@@ -3,6 +3,9 @@ body{
     display: flex;
     flex-direction: column;
     min-height: auto;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 header, footer {
@@ -11,8 +14,9 @@ header, footer {
     padding: 10px;
 }
 
-nav {
+nav:hover {
     padding: 10px;
+    background-color: #ffa500;
 }
 
 main{
